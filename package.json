@@ -3,32 +3,53 @@
   "version": "1.0.0",
   "description": "A dynamic news application that fetches and displays the latest news articles using the GNews API, featuring a sleek and modern frontend design.",
   "main": "app.js",
+  "type": "module",
   "scripts": {
     "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "react-scripts build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cemxl/aconews-frontend.git"
   },
   "keywords": [
-    "[\"news\"",
-    "\"news-app\"",
-    "\"GNews\"",
-    "\"frontend\"",
-    "\"API\"",
-    "\"React\"",
-    "\"JavaScript\"",
-    "\"web-app\"]"
+    "news",
+    "news-app",
+    "GNews",
+    "frontend",
+    "API",
+    "React",
+    "JavaScript",
+    "web-app"
   ],
   "author": "Cemal",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cemxl/aconews-frontend/issues"
+    "url": "https://github.com/cemxl/aconews4-frontend/issues"
   },
-  "homepage": "https://github.com/cemxl/aconews-frontend#readme",
+  "homepage": "https://github.com/cemxl/aconews4-frontend#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.21.0"
+    "express": "^4.21.0",
+    "node-fetch": "^3.3.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }

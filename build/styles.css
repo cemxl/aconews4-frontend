@@ -1,0 +1,131 @@
+/* General Styling */
+body {
+  font-family: 'Baloo 2', cursive; /* Ensure the font is set here */
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  font-size: 18px;
+}
+header {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 40px;
+  color: #0070f3;
+  font-weight: 700;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  font-size: 20px;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #0070f3;
+  font-weight: 500;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #0070f3;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+/* News Section */
+.news-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 40px;
+}
+
+.news-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.news-card:hover {
+  transform: translateY(-5px);
+}
+
+.news-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.news-image.no-image {
+  display: none;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+
+.news-title {
+  color: #000; /* Default color for the title */
+  text-decoration: none; /* Remove underline from links */
+  font-weight: bold; /* Make title bold */
+}
+
+.news-title:hover {
+  color: #007bff; /* Blue color on hover */
+}
+
+.news-card h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.news-card p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #555;
+}
+
+.news-card .date {
+  font-size: 12px;
+  color: #999;
+  margin-top: 15px;
+}
