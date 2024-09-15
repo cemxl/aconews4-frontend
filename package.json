@@ -1,0 +1,34 @@
+{
+  "name": "aconews4-frontend",
+  "version": "1.0.0",
+  "description": "A dynamic news application that fetches and displays the latest news articles using the GNews API, featuring a sleek and modern frontend design.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cemxl/aconews-frontend.git"
+  },
+  "keywords": [
+    "[\"news\"",
+    "\"news-app\"",
+    "\"GNews\"",
+    "\"frontend\"",
+    "\"API\"",
+    "\"React\"",
+    "\"JavaScript\"",
+    "\"web-app\"]"
+  ],
+  "author": "Cemal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cemxl/aconews-frontend/issues"
+  },
+  "homepage": "https://github.com/cemxl/aconews-frontend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0"
+  }
+}
